@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Gracias por contactar con Nova Agency!</title>
+    <style>
+        :root {
+            --primary: #FF2D75; /* Rosa Nova */
+            --secondary: #000000;
+            --light: #FFFFFF;
+            --accent: #F8E8EE;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--secondary);
+            background-color: var(--light);
+            line-height: 1.6;
+            overflow-x: hidden;
+            text-align: center;
+        }
+        
+        .thank-you-header {
+            background: linear-gradient(135deg, rgba(255,45,117,0.9) 0%, rgba(255,107,149,0.9) 100%);
+            color: var(--light);
+            padding: 5rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        
+        .logo-img {
+            width: 70px;
+            height: 70px;
+            background: rgba(255,255,255,0.2);
+            margin-right: 15px;
+            border-radius: 50%;
+        }
+        
+        .logo-text {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        
+        .thank-you-content {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+        }
+        
+        h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: var(--light);
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 1rem 0.5rem;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .btn-secondary {
+            background: var(--secondary);
+            color: var(--light);
+        }
+        
+        .next-steps {
+            background: var(--accent);
+            padding: 3rem 0;
+            margin: 3rem 0;
+        }
+        
+        .steps-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        
+        .step {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            padding: 2rem;
+            background: var(--light);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .step-icon {
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+        
+        footer {
+            background: var(--secondary);
+            color: var(--light);
+            padding: 3rem 0;
+            margin-top: 3rem;
+        }
+        
+        .social-links a {
+            color: var(--light);
+            margin: 0 15px;
+            font-size: 1.5rem;
+            transition: opacity 0.3s;
+        }
+        
+        .social-links a:hover {
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .logo-text {
+                font-size: 1.5rem;
+            }
+            
+            .logo-img {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .btn {
+                display: block;
+                width: 80%;
+                margin: 1rem auto;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="thank-you-header">
+        <div class="logo-container">
+            <div class="logo-img"></div>
+            <div class="logo-text">NOVA AGENCY</div>
+        </div>
+        <h1>¡Gracias por contactarnos!</h1>
+        <p>Tu mensaje ha sido recibido y estamos emocionados de conectar contigo.</p>
+    </header>
+    
+    <div class="thank-you-content">
+        <h2>¿Qué sigue ahora?</h2>
+        <p>Nuestro equipo revisará tu información y se pondrá en contacto contigo en las próximas 24-48 horas para discutir cómo podemos ayudarte en tu transformación digital.</p>
+        <p>Mientras tanto, te invitamos a:</p>
+        
+        <a href="https://wa.me/tunumerodewhatsapp" class="btn">
+            <i class="fab fa-whatsapp"></i> Hablar por WhatsApp
+        </a>
+        <a href="index.html" class="btn btn-secondary">
+            <i class="fas fa-home"></i> Volver al inicio
+        </a>
+    </div>
+    
+    <section class="next-steps">
+        <div class="container">
+            <h2 style="color: var(--primary); margin-bottom: 2rem;">Prepárate para tu transformación</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Reflexiona sobre tus objetivos</h3>
+                    <p>Considera qué desafíos específicos quieres resolver con la IA y qué resultados esperas lograr.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Involucra a tu equipo</h3>
+                    <p>Habla con tus colaboradores sobre los cambios potenciales y recoge sus inquietudes.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Revisa tus métricas</h3>
+                    <p>Identifica los KPIs que quieres mejorar para que podamos medir juntos el éxito de la implementación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p style="font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Síguenos en redes sociales</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p style="margin-top: 2rem;">¿Tienes preguntas urgentes? <a href="mailto:hola@novaagency.com" style="color: var(--primary);">hola@novaagency.com</a></p>
+            <p style="margin-top: 2rem;">&copy; 2024 Nova Agency. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
