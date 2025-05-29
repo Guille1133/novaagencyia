@@ -38,12 +38,12 @@
             margin-bottom: 2rem;
         }
         
-        .logo-img {
-            width: 70px;
-            height: 70px;
-            background: rgba(255,255,255,0.2);
-            margin-right: 15px;
-            border-radius: 50%;
+      .logo-img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-right: 15px;
+
         }
         
         .logo-text {
@@ -168,10 +168,10 @@
 <body>
     <header class="thank-you-header">
         <div class="logo-container">
-            <div class="logo-img"></div>
+            <img src="../Logo.png" alt="Logo Nova Agency" class="logo-img" />
             <div class="logo-text">NOVA AGENCY</div>
         </div>
-        <h1>¡Gracias por contactarnos!</h1>
+        <h1 style="color: white;">¡Gracias por contactarnos!</h1>
         <p>Tu mensaje ha sido recibido y estamos emocionados de conectar contigo.</p>
     </header>
     
@@ -180,11 +180,11 @@
         <p>Nuestro equipo revisará tu información y se pondrá en contacto contigo en las próximas 24-48 horas para discutir cómo podemos ayudarte en tu transformación digital.</p>
         <p>Mientras tanto, te invitamos a:</p>
         
-        <a href="https://wa.me/tunumerodewhatsapp" class="btn">
+       <a href="https://wa.me/34645347443" class="btn" target="_blank">
             <i class="fab fa-whatsapp"></i> Hablar por WhatsApp
         </a>
         <a href="index.html" class="btn btn-secondary">
-            <i class="fas fa-home"></i> Volver al inicio
+          <a href="/" class="btn btn-secondary"> Volver al inicio
         </a>
     </div>
     
@@ -223,10 +223,8 @@
         <div class="container">
             <p style="font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Síguenos en redes sociales</p>
             <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.linkedin.com/in/consultoría-ia-novaagency" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/juanimal_flow" target="_blank"><i class="fab fa-instagram"></i> </a>
             </div>
             <p style="margin-top: 2rem;">¿Tienes preguntas urgentes? <a href="mailto:hola@novaagency.com" style="color: var(--primary);">hola@novaagency.com</a></p>
             <p style="margin-top: 2rem;">&copy; 2024 Nova Agency. Todos los derechos reservados.</p>
