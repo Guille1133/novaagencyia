@@ -2,561 +2,695 @@
 <html lang="es">
 <head>
     <!-- SEO Básico -->
-<title>Nova Agency | Transformación con IA y Bienestar</title>
-<meta name="description" content="Nova Agency integra inteligencia artificial y bienestar emocional para transformar tu empresa con soluciones tecnológicas humanas y eficientes.">
-<meta name="keywords" content="inteligencia artificial, IA, automatización, bienestar empresarial, consultoría IA, SaaS personalizado, agentes virtuales, Nova Agency, transformación digital">
-<meta name="author" content="Nova Agency">
-<link rel="canonical" href="https://www.novaagencyia.es">
+    <title>Nova Agency | Agentes Inmobiliarios - Más Exclusivas, Más Ventas</title>
+    <meta name="description" content="Nova Agency ayuda a agentes inmobiliarios a conseguir más exclusivas en menos tiempo, detectando propiedades recién publicadas en tu zona.">
+    <meta name="keywords" content="agente inmobiliario, exclusivas, propiedades, venta de casas, leads inmobiliarios, Nova Agency, bienes raíces">
+    <meta name="author" content="Nova Agency">
+    <link rel="canonical" href="https://www.novaagencybienesraices.es">
 
-<!-- Open Graph para redes sociales -->
-<meta property="og:title" content="Nova Agency | Transformación con IA y Bienestar">
-<meta property="og:description" content="Transformamos empresas fusionando tecnología con bienestar humano.">
-<meta property="og:image" content="https://novaagencyia.es/logo.png">
-<meta property="og:url" content="https://novaagencyia.es">
-<meta property="og:type" content="website">
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Nova Agency | Más Exclusivas. Más Ventas. Menos Estrés">
+    <meta property="og:description" content="Llega antes que tu competencia a las mejores propiedades en tu zona.">
+    <meta property="og:image" content="https://novaagencybienesraices.es/logo.png">
+    <meta property="og:url" content="https://novaagencybienesraices.es">
+    <meta property="og:type" content="website">
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Nova Agency | Transformación con IA y Bienestar">
-<meta name="twitter:description" content="Transformamos empresas fusionando tecnología con bienestar humano.">
-<meta name="twitter:image" content="https://novaagencyia.es/logo.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nova Agency | Más Exclusivas. Más Ventas. Menos Estrés">
+    <meta name="twitter:description" content="Llega antes que tu competencia a las mejores propiedades en tu zona.">
+    <meta name="twitter:image" content="https://novaagencybienesraices.es/logo.png">
 
-<!-- Favicon -->
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       :root {
-    --primary: #B8004C;       /* Rosa oscuro principal */
-    --secondary: #000000;
-    --light: #FFFFFF;
-    --accent: #EDB3C6;       
-}
+          --primary: #B8004C;       /* Rosa oscuro principal */
+          --secondary: #000000;
+          --light: #FFFFFF;
+          --accent: #EDB3C6;       
+          --dark-text: #333333;
+          --card-bg: #f8f9fa;      /* Fondo claro para tarjetas */
+      }
+        
+      body {
+          font-family: 'Montserrat', sans-serif;
+          margin: 0;
+          padding: 0;
+          color: var(--dark-text);
+          background-color: var(--light);
+          line-height: 1.6;
+          overflow-x: hidden;
+      }
+        
+      /* Header y Navegación */
+      header {
+          background: linear-gradient(135deg, rgba(184,0,76,0.6) 0%, rgba(120,0,50,0.6) 100%),
+                      url('./fondo.webp') center/cover no-repeat;
+          color: var(--light);
+          padding: 1rem 0;
+          position: relative;
+          overflow: hidden;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+      }
+        
+      .header-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+          max-width: 1200px;
+          margin: 0 auto;
+          z-index: 2;
+          position: relative;
+      }
+        
+      .logo-container {
+          display: flex;
+          align-items: center;
+      }
+        
+      .logo-img {
+          width: 50px;
+          height: 50px;
+          object-fit: contain;
+          margin-right: 15px;
+      }
+        
+      .logo-text {
+          font-size: 1.5rem;
+          font-weight: 700;
+          letter-spacing: 1px;
+          color: var(--light);
+      }
+        
+      /* Estilos por defecto: ESCRITORIO */
+      nav {
+          display: flex;
+          align-items: center;
+      }
 
-        
-        body {
-            font-family: 'Montserrat', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: var(--secondary);
-            background-color: var(--light);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        
-        /* Header y Navegación */
-  header {
-  background: linear-gradient(135deg, rgba(184,0,76,0.6) 0%, rgba(120,0,50,0.6) 100%),
-              url('./fondo.webp') center/cover no-repeat;
+      .nav-links {
+          display: flex;
+          list-style: none;
+          gap: 2rem;
+      }
 
-            color: var(--light);
-            padding: 1rem 0;
-            position: relative;
-            overflow: hidden;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    z-index: 2;
-    position: relative;
-}
-        
-        .logo-container {
-            display: flex;
-            align-items: center;
-        }
-        
-        .logo-img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    margin-right: 15px;
-}
-        
-        .logo-text {
-            font-size: 1.5rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-        }
-        
-       /* Estilos por defecto: ESCRITORIO */
-nav {
-  display: flex;
-  align-items: center;
-}
+      .nav-links li a {
+          color: var(--light);
+          text-decoration: none;
+          font-weight: 500;
+      }
 
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
-}
+      .hamburger {
+          display: none;
+      }
 
-.nav-links li a {
-  color: var(--light);
-  text-decoration: none;
-  font-weight: 500;
-}
+      /* SOLO en móvil */
+      @media (max-width: 768px) {
+          .hamburger {
+              display: block;
+              position: absolute;
+              top: 50%;
+              right: 15px;
+              transform: translateY(-50%);
+              z-index: 10002;
+              background: none;
+              border: none;
+              color: var(--light);
+              font-size: 1.3rem;
+          }
 
-.hamburger {
-  display: none;
-}
+          .header-container {
+              align-items: center;
+          }
 
-/* SOLO en móvil */
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
-    z-index: 10002;
-    background: none;
-    border: none;
-    color: var(--light);
-    font-size: 1.3rem;
-  }
+          nav {
+              position: fixed;
+              top: 0;
+              right: -100%;
+              width: 100vw;
+              height: 100vh;
+              background: rgba(0, 0, 0, 0.95);
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              transition: right 0.3s ease-in-out;
+              z-index: 1000;
+              padding-top: 4rem;
+          }
 
-  .header-container {
-    align-items: center;
-  }
+          nav.active {
+              right: 0;
+          }
 
-  nav {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.95);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: right 0.3s ease-in-out;
-    z-index: 1000;
-    padding-top: 4rem;
-  }
+          .nav-links {
+              flex-direction: column;
+              align-items: center;
+              gap: 2.5rem;
+              list-style: none;
+              padding: 0;
+              margin: 0;
+          }
 
-  nav.active {
-    right: 0;
-  }
+          .nav-links li {
+              margin: 0;
+          }
 
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 2.5rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+          .nav-links li a {
+              font-size: 1.8rem;
+              color: var(--light);
+              text-decoration: none;
+          }
 
-  .nav-links li {
-    margin: 0;
-  }
+          .hamburger i {
+              font-size: 1.8rem;
+              color: var(--light);
+          }
 
-  .nav-links li a {
-    font-size: 1.8rem;
-    color: var(--light);
-    text-decoration: none;
-  }
+          header {
+              min-height: auto;
+              padding-bottom: 4rem;
+          }
+      }
 
-  .hamburger i {
-    font-size: 1.8rem;
-    color: var(--light);
-  }
+      .hero {
+          text-align: center;
+          padding: 3rem 0;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          z-index: 2;
+      }  
+      
+      .tagline {
+          font-size: 1.5rem;
+          max-width: 700px;
+          margin: 1rem auto 2rem;
+          text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+          color: var(--light);
+      }
+        
+      .btn {
+          display: inline-block;
+          background: var(--light);
+          color: var(--primary);
+          padding: 14px 36px;
+          border-radius: 50px;
+          text-decoration: none;
+          font-weight: 600;
+          margin: 0.5rem;
+          transition: all 0.3s ease;
+          width: 90%;
+          max-width: 280px;
+          text-align: center;
+          font-size: 1rem;
+      }
+      
+      .btn-primary {
+          background: var(--secondary);
+          color: var(--light);
+      }
+        
+      .btn:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgba(184,0,76,0.3);
+      }
+        
+      /* Secciones */
+      .container {
+          width: 85%;
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+        
+      section {
+          padding: 4rem 0;
+      }
+        
+      .section-title {
+          text-align: center;
+          font-size: 2rem;
+          margin-bottom: 2rem;
+          color: var(--primary);
+          position: relative;
+      }
+        
+      .section-title::after {
+          content: "";
+          display: block;
+          width: 80px;
+          height: 4px;
+          background: var(--primary);
+          margin: 15px auto;
+      }
+        
+      .about {
+          background: var(--secondary);
+          position: relative;
+          padding: 3rem 0;
+          color: var(--light);
+      }
+      
+      .about p {
+          color: var(--light);
+      }
+      
+      .about .section-title {
+          color: var(--primary);
+      }
+        
+      .about-content {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 2rem;
+      }
+        
+      .about-text {
+          flex: 1;
+          min-width: 300px;
+      }
+        
+      .about-image {
+          flex: 1;
+          min-width: 300px;
+          background: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80') center/cover;
+          height: 400px;
+          border-radius: 15px;
+          box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      }
+        
+      /* Servicios */
+      .services-grid {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 2rem;
+      }
+        
+      .service-card {
+          background: var(--card-bg);
+          border-radius: 15px;
+          overflow: hidden;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+          transition: transform 0.3s ease;
+      }
+        
+      .service-card:hover {
+          transform: translateY(-10px);
+      }
+        
+      .service-icon {
+          background: linear-gradient(135deg, #B8004C, #780032);
+          color: var(--light);
+          font-size: 2rem;
+          padding: 1.5rem;
+          text-align: center;
+      }
+        
+      .service-content {
+          padding: 1.5rem;
+          color: var(--dark-text);
+      }
+      
+      .service-content h3 {
+          color: var(--primary);
+          margin-top: 0;
+      }
+      
+      /* Problema/Solución */
+      .problem-solution {
+          padding: 4rem 0;
+          background-color: #f9f9f9;
+      }
+      
+      .problem-solution-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+      }
+      
+      .problem-box, .solution-box {
+          padding: 2rem;
+          border-radius: 15px;
+      }
+      
+      .problem-box {
+          background-color: #ffecec;
+          border-left: 5px solid var(--primary);
+      }
+      
+      .solution-box {
+          background-color: #e8f5e9;
+          border-left: 5px solid #4CAF50;
+      }
+      
+      .benefits {
+          padding: 4rem 0;
+          text-align: center;
+      }
+      
+      .benefits-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 1.5rem;
+          margin-top: 2rem;
+      }
+      
+      .benefit-item {
+          background: var(--light);
+          padding: 1.5rem;
+          border-radius: 10px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+          color: var(--dark-text);
+      }
+      
+      /* Testimonios */
+      .testimonials {
+          background: var(--secondary);
+          color: var(--light);
+          padding: 3rem 0;
+      }
+        
+      .testimonials-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 1.5rem;
+      }
+        
+      .testimonial-card {
+          background: rgba(255,255,255,0.1);
+          padding: 1.5rem;
+          border-radius: 15px;
+          position: relative;
+      }
+        
+      .testimonial-card::before {
+          content: "❝";
+          font-size: 4rem;
+          color: var(--primary);
+          position: absolute;
+          top: -20px;
+          left: 10px;
+          opacity: 0.2;
+          font-family: serif;
+      }
+        
+      /* FAQ */
+      .faq {
+          padding: 3rem 0;
+      }
+        
+      .faq-item {
+          margin-bottom: 1.5rem;
+          background: var(--light);
+          border-radius: 10px;
+          padding: 1rem;
+          box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      }
+        
+      .faq-question {
+          font-weight: 600;
+          color: var(--primary);
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+        
+      .faq-question::after {
+          content: "+";
+          font-size: 1.2rem;
+      }
+        
+      .faq-question.active::after {
+          content: "-";
+      }
+        
+      .faq-answer {
+          display: none;
+          padding-top: 1rem;
+          color: var(--dark-text);
+      }
+        
+      /* Lead Magnet */
+      .lead-magnet {
+          padding: 3rem 0;
+      }
+        
+      .form-container {
+          max-width: 600px;
+          margin: 0 auto;
+          background: var(--accent);
+          padding: 2rem;
+          border-radius: 15px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+        
+      .form-group {
+          margin-bottom: 1.2rem;
+      }
+        
+      .form-control {
+          width: 100%;
+          padding: 12px 15px;
+          border: 1px solid #ddd;
+          border-radius: 5px;
+          font-family: inherit;
+      }
+        
+      textarea.form-control {
+          min-height: 120px;
+      }
+        
+      /* Contacto */
+      .contact-cta {
+          text-align: center;
+          background: linear-gradient(135deg, #a3003f 0%, #6a0031 100%);
+          color: var(--light);
+          padding: 2.5rem 0;
+      }
+        
+      .whatsapp-btn {
+          background: #25D366;
+          color: white;
+          display: inline-flex;
+          align-items: center;
+          padding: 12px 25px;
+          border-radius: 50px;
+          text-decoration: none;
+          font-weight: 600;
+          margin-top: 1rem;
+          transition: transform 0.3s;
+      }
+        
+      .whatsapp-btn:hover {
+          transform: translateY(-3px);
+      }
+        
+      .whatsapp-btn i {
+          margin-right: 10px;
+          font-size: 1.2rem;
+      }
+        
+      /* Footer */
+      footer {
+          background: var(--secondary);
+          color: var(--light);
+          text-align: center;
+          padding: 2rem 0;
+      }
+        
+      .footer-logo {
+          font-size: 1.8rem;
+          font-weight: 700;
+          margin-bottom: 1rem;
+          letter-spacing: 1px;
+      }
+        
+      .social-links {
+          margin: 1.5rem 0;
+      }
+        
+      .social-links a {
+          color: var(--light);
+          margin: 0 10px;
+          font-size: 1.2rem;
+          transition: opacity 0.3s;
+      }
+        
+      .social-links a:hover {
+          opacity: 0.8;
+      }
+        
+      /* Responsive */
+      @media (max-width: 768px) {
+          .header-container {
+              width: 90%;
+              position: relative;
+              z-index: 10000;
+          }
 
-  header {
-    min-height: auto;
-    padding-bottom: 4rem;
-  }
-}
+          .nav-links.active {
+              right: 0;
+          }
 
-        .hero {
-    text-align: center;
-    padding: 3rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; /* ✅ Esto centra los botones */
-    z-index: 2;
-}  
-        .tagline {
-            font-size: 1.5rem;
-            max-width: 700px;
-            margin: 1rem auto 2rem;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-        }
-        
-     .btn {
-  display: inline-block;
-  background: var(--light);
-  color: var(--primary);
-  padding: 14px 36px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: 600;
-  margin: 0.5rem;
-  transition: all 0.3s ease;
-  width: 90%;        /* Cambia esto */
-  max-width: 280px;  /* Fijá un máximo */
-  text-align: center;
-  font-size: 1rem;
-}
-            .btn-primary {
-            background: var(--secondary);
-            color: var(--light);
-        }
-        
-        .btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(184,0,76,0.3); /* sombra rosa oscura */
-}
-        
-        /* Secciones */
-        .container {
-            width: 85%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        section {
-            padding: 4rem 0;
-        }
-        
-        .section-title {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 2rem;
-            color: var(--primary);
-            position: relative;
-        }
-        
-        .section-title::after {
-            content: "";
-            display: block;
-            width: 80px;
-            height: 4px;
-            background: var(--primary);
-            margin: 15px auto;
-        }
-        
-        .about {
-    background: var(--secondary); /* negro */
-    position: relative;
-    padding: 3rem 0;
-    color: var(--light); /* texto en blanco */
-}
-.about p {
-    color: var(--light);
-}
-.about .section-title {
-    color: var(--primary); /* mantiene el rosa para el título */
-}
-        
-        .about-content {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 2rem;
-        }
-        
-        .about-text {
-            flex: 1;
-            min-width: 300px;
-        }
-        
-        .about-image {
-            flex: 1;
-            min-width: 300px;
-            background: url('https://images.unsplash.com/photo-1677442135136-760c813a743e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80') center/cover;
-            height: 400px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        
-        /* Servicios */
-        .services-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
+          .nav-links li {
+              margin: 1.5rem 0;
+          }
 
-        
-        .service-card {
-            background: var(--light);
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-        
-        .service-card:hover {
-            transform: translateY(-10px);
-        }
-        
-        .service-icon {
-            background: linear-gradient(135deg, #B8004C, #780032);
-            color: var(--light);
-            font-size: 2rem;
-            padding: 1.5rem;
-            text-align: center;
-        }
-        
-        .service-content {
-            padding: 1.5rem;
-        }
-        
-        /* Testimonios */
-        .testimonials {
-            background: var(--secondary);
-            color: var(--light);
-            padding: 3rem 0;
-        }
-        
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-        }
-        
-        .testimonial-card {
-            background: rgba(255,255,255,0.1);
-            padding: 1.5rem;
-            border-radius: 15px;
-            position: relative;
-        }
-        
-       .testimonial-card::before {
-    content: "❝";
-            font-size: 4rem;
-            color: var(--primary);
-            position: absolute;
-            top: -20px;
-            left: 10px;
-            opacity: 0.2;
-            font-family: serif;
-        }
-        
-        /* FAQ */
-        .faq {
-            padding: 3rem 0;
-        }
-        
-        .faq-item {
-            margin-bottom: 1.5rem;
-            background: var(--light);
-            border-radius: 10px;
-            padding: 1rem;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-        }
-        
-        .faq-question {
-            font-weight: 600;
-            color: var(--primary);
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .faq-question::after {
-            content: "+";
-            font-size: 1.2rem;
-        }
-        
-        .faq-question.active::after {
-            content: "-";
-        }
-        
-        .faq-answer {
-            display: none;
-            padding-top: 1rem;
-        }
-        
-        /* Lead Magnet */
-        .lead-magnet {
-            padding: 3rem 0;
-        }
-        
-        .form-container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: var(--accent);
-            padding: 2rem;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        .form-group {
-            margin-bottom: 1.2rem;
-        }
-        
-        .form-control {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-family: inherit;
-        }
-        
-        textarea.form-control {
-            min-height: 120px;
-        }
-        
-        /* Contacto */
-        .contact-cta {
-            text-align: center;
-           background: linear-gradient(135deg, #a3003f 0%, #6a0031 100%);
-            color: var(--light);
-            padding: 2.5rem 0;
-        }
-        
-        .whatsapp-btn {
-            background: #25D366;
-            color: white;
-            display: inline-flex;
-            align-items: center;
-            padding: 12px 25px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 1rem;
-            transition: transform 0.3s;
-        }
-        
-        .whatsapp-btn:hover {
-            transform: translateY(-3px);
-        }
-        
-        .whatsapp-btn i {
-            margin-right: 10px;
-            font-size: 1.2rem;
-        }
-        
-        /* Footer */
-        footer {
-            background: var(--secondary);
-            color: var(--light);
-            text-align: center;
-            padding: 2rem 0;
-        }
-        
-        .footer-logo {
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            letter-spacing: 1px;
-        }
-        
-        .social-links {
-            margin: 1.5rem 0;
-        }
-        
-        .social-links a {
-            color: var(--light);
-            margin: 0 10px;
-            font-size: 1.2rem;
-            transition: opacity 0.3s;
-        }
-        
-        .social-links a:hover {
-            opacity: 0.8;
-        }
-        
-        /* Responsive */
-       @media (max-width: 768px) {
-  .header-container {
-    width: 90%;
-    position: relative;
-    z-index: 10000;
-  }
+          .nav-links li a {
+              font-size: 1.8rem;
+              color: var(--light);
+          }
 
-  .nav-links.active {
-    right: 0;
-  }
-
-  .nav-links li {
-    margin: 1.5rem 0;
-  }
-
-  .nav-links li a {
-    font-size: 1.8rem;
-    color: var(--light);
-  }
-
-  header {
-    min-height: auto;
-    padding-bottom: 4rem;
-  }
-}         
+          header {
+              min-height: auto;
+              padding-bottom: 4rem;
+          }
+          
+          .problem-solution-grid {
+              grid-template-columns: 1fr;
+          }
+          
+          .services-grid {
+              grid-template-columns: 1fr;
+          }
+      }         
         
-        @media (max-width: 480px) {
-  .btn {
-    display: block;
-    width: 90%;
-    margin: 0.5rem auto;
-  }
-}      
-            .logo-text {
-                font-size: 1.2rem;
-            }
-            
-            .tagline {
-                font-size: 1.1rem;
-            }
-     @media (max-width: 768px) {
-  .services-grid {
-    grid-template-columns: 1fr; /* solo 1 columna en mobile */
-  }
-}
-        .form-container form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+      @media (max-width: 480px) {
+          .btn {
+              display: block;
+              width: 90%;
+              margin: 0.5rem auto;
+          }
+          
+          .logo-text {
+              font-size: 1.2rem;
+          }
+          
+          .tagline {
+              font-size: 1.1rem;
+          }
+      }
+      
+      .form-container form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
 
-.form-control {
-  max-width: 500px;
-  width: 100%;
-  margin: 0.5rem 0;
-}
+      .form-control {
+          max-width: 500px;
+          width: 100%;
+          margin: 0.5rem 0;
+      }
 
-.form-container button {
-  max-width: 500px;
-  width: 100%;
-}
-.form-group {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
+      .form-container button {
+          max-width: 500px;
+          width: 100%;
+      }
+      
+      .form-group {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+      }
+      
+      /* Cómo funciona */
+      .how-it-works {
+          padding: 4rem 0;
+          background-color: #f5f5f5;
+      }
+      
+      .steps-container {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin-top: 2rem;
+      }
+      
+      .step {
+          flex: 1;
+          min-width: 250px;
+          text-align: center;
+          padding: 1.5rem;
+          position: relative;
+          color: var(--dark-text);
+      }
+      
+      .step-number {
+          background: var(--primary);
+          color: white;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto 1rem;
+          font-size: 1.5rem;
+          font-weight: bold;
+      }
+      
+      @media (max-width: 768px) {
+          .steps-container {
+              flex-direction: column;
+          }
+          
+          .step {
+              margin-bottom: 2rem;
+          }
+          
+          .step:not(:last-child)::after {
+              content: "↓";
+              display: block;
+              font-size: 2rem;
+              color: var(--primary);
+              margin: 1rem 0;
+          }
+      }
+      
+      /* Iconos */
+      .icon-feature {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+          display: inline-block;
+      }
+      
+      /* Sección sobre nosotros con texto oscuro */
+      .about-us {
+          background: var(--light);
+          color: var(--dark-text);
+      }
+      
+      .about-us .section-title {
+          color: var(--primary);
+      }
     </style>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" media="print" onload="this.media='all'">
-<noscript>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </noscript>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-   <link rel="preload" as="image" href="fondo.webp" type="image/webp">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preload" as="image" href="fondo.webp" type="image/webp">
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo-container">
                 <img src="Logo.png" alt="Nova Agency Logo" class="logo-img" />
-<div class="logo-text">NOVA AGENCY</div>
-
+                <div class="logo-text">NOVA AGENCY</div>
             </div>
             
             <button class="hamburger" id="hamburger" aria-label="Menú de navegación">
@@ -565,8 +699,9 @@ nav {
             
             <nav id="nav">
                 <ul class="nav-links" id="navLinks">
-                    <li><a href="#about">Nosotros</a></li>
-                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#challenge">El Desafío</a></li>
+                    <li><a href="#solution">Nuestra Propuesta</a></li>
+                    <li><a href="#how-it-works">Cómo Funciona</a></li>
                     <li><a href="#testimonials">Testimonios</a></li>
                     <li><a href="#faq">FAQ</a></li>
                     <li><a href="#contact">Contacto</a></li>
@@ -575,68 +710,170 @@ nav {
         </div>
         
         <div class="hero container">
-            <h1 style="font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Transformación Digital con Alma</h1>
-            <p class="tagline">Donde la inteligencia artificial se encuentra con el bienestar emocional para crear empresas más eficientes y humanas</p>
-            <a href="#contact" class="btn btn-primary">Descubre cómo</a>
-            <a href="#services" class="btn">Explora servicios</a>
+            <h1 style="font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Más Exclusivas. Más Ventas. Menos Estrés.</h1>
+            <p class="tagline">Llega antes que tu competencia y céntrate en lo que mejor haces: cerrar acuerdos y enseñar casas.</p>
+            <p style="max-width: 700px; margin: 0 auto 2rem; font-size: 1.1rem; color: var(--light);">En Nova Agency nos encargamos de detectar al instante a los propietarios que acaban de poner su vivienda en venta en tu zona. Solo te presentamos oportunidades reales para que dediques tu tiempo a lo que te genera ingresos: reuniones, visitas y cierres.</p>
+            <a href="#contact" class="btn btn-primary">📅 Quiero cerrar más exclusivas</a>
         </div>
     </header>
     
-    <section id="about" class="about">
+    <section id="challenge" class="problem-solution">
         <div class="container">
-            <h2 class="section-title">Más que IA, una transformación</h2>
-            <div class="about-content" style="flex-direction: column; text-align: center;">
-    <div class="about-text" style="max-width: 800px; margin: 0 auto;">
-        <p>En Nova Agency no solo implementamos soluciones tecnológicas; acompañamos a tu empresa en un proceso de transformación integral donde la eficiencia operativa se encuentra con el bienestar emocional.</p>
-        <p>Creemos que la verdadera innovación ocurre cuando la tecnología sirve a las personas, no al revés. Por eso, cada solución que implementamos está diseñada para potenciar tanto tus resultados como la experiencia de tu equipo.</p>
-        <p>Nuestro enfoque personalizado asegura que cada integración se adapte perfectamente a tus necesidades específicas, creando una transición fluida y sin estrés hacia operaciones más inteligentes.</p>
-    </div>
-</div>
+            <h2 class="section-title">El Desafío que Enfrentas</h2>
+            <div class="problem-box">
+                <h3>¿Cuánto tiempo pierdes buscando y llamando?</h3>
+                <ul style="text-align: left; padding-left: 1.5rem;">
+                    <li>Horas en portales saturados donde están todos.</li>
+                    <li>Llamadas a leads que no responden.</li>
+                    <li>Llegar tarde a las mejores oportunidades.</li>
+                    <li>Mucho esfuerzo para pocos resultados.</li>
+                </ul>
+            </div>
+        </div>
     </section>
     
-    <section id="services" class="services">
+    <section id="solution" class="about">
         <div class="container">
-            <h2 class="section-title">Nuestros Servicios</h2>
-            <div class="services-grid">
+            <h2 class="section-title">Nuestra Propuesta</h2>
+            <div class="about-content" style="flex-direction: column; text-align: center;">
+                <div class="about-text" style="max-width: 800px; margin: 0 auto;">
+                    <h3 style="color: var(--primary); margin-bottom: 1.5rem;">Más tiempo para clientes reales, menos para prospectos perdidos</h3>
+                    <p>En Nova Agency te conectamos directamente con propietarios listos para vender en tu zona.</p>
+                    <p>Sin llamadas en frío, sin búsquedas eternas, sin malgastar energía.</p>
+                </div>
+            </div>
+            
+            <div class="services-grid" style="margin-top: 3rem;">
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-robot"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Automatizaciones Inteligentes</h3>
-                        <p>Libera a tu equipo de tareas repetitivas con nuestros sistemas de automatización personalizados que aprenden y se adaptan a tus procesos.</p>
+                        <h3>📍 Oportunidades en Tiempo Real</h3>
+                        <p>Detectamos nuevos anuncios en cuanto se publican, y te los enviamos de inmediato para que llegues antes que tu competencia.</p>
                     </div>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-cubes"></i>
+                        <i class="fas fa-comments"></i>
                     </div>
                     <div class="service-content">
-                        <h3>SaaS Personalizados</h3>
-                        <p>Soluciones software a medida que escalan con tu negocio, diseñadas específicamente para tus desafíos únicos.</p>
+                        <h3>💬 Contacto Calificado</h3>
+                        <p>Solo recibes información de propietarios interesados en escuchar tu propuesta.</p>
                     </div>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-headset"></i>
+                        <i class="fas fa-home"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Agentes de IA Telefónicos</h3>
-                        <p>Asistentes virtuales que gestionan llamadas con naturalidad, reduciendo costos mientras mejoran la experiencia del cliente.</p>
+                        <h3>🏡 Enfócate en lo que importa</h3>
+                        <p>Enseñar casas, negociar y firmar exclusivas.</p>
                     </div>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-comment-dots"></i>
+                        <i class="fas fa-chart-line"></i>
                     </div>
                     <div class="service-content">
-                        <h3>Agentes de IA de Texto</h3>
-                        <p>Sistemas conversacionales avanzados para atención al cliente, ventas y soporte, disponibles 24/7.</p>
+                        <h3>📈 Ventaja Competitiva</h3>
+                        <p>Llegas primero a las mejores propiedades con información privilegiada.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="benefits">
+        <div class="container">
+            <h2 class="section-title">Beneficios Claros</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="icon-feature">🚀</div>
+                    <h3>Llegas primero</h3>
+                    <p>A las mejores propiedades antes que tu competencia.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="icon-feature">⏱️</div>
+                    <h3>Más exclusivas</h3>
+                    <p>En menos tiempo y con menos esfuerzo.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="icon-feature">🏆</div>
+                    <h3>Reputación</h3>
+                    <p>Refuerzas tu imagen como agente top en tu zona.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="icon-feature">📅</div>
+                    <h3>Agenda llena</h3>
+                    <p>De reuniones de calidad con propietarios reales.</p>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="icon-feature">🙅‍♂️</div>
+                    <h3>Sin pérdidas de tiempo</h3>
+                    <p>Te olvidas de perseguir leads sin potencial.</p>
+                </div>
+            </div>
+            
+            <a href="#contact" class="btn btn-primary" style="margin-top: 2rem;">🚀 Quiero hablar con más propietarios reales</a>
+        </div>
+    </section>
+    
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Cómo Funciona</h2>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Detectamos Nuevas Propiedades al Momento</h3>
+                    <p>En cuanto un propietario publica su vivienda en canales clave, nuestro sistema lo localiza y te lo envía al instante.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Validamos el Interés</h3>
+                    <p>Filtramos y priorizamos a los propietarios con verdadera intención de vender, evitando pérdidas de tiempo.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Tú Cierras la Exclusiva</h3>
+                    <p>Llegas con ventaja, con el contacto caliente y sin competencia directa, listo para enseñar, negociar y firmar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" style="background: var(--secondary);">
+        <div class="container">
+            <h2 class="section-title">Por Qué Funciona</h2>
+            <div class="about-content" style="flex-direction: column; text-align: center;">
+                <div class="about-text" style="max-width: 800px; margin: 0 auto;">
+                    <p>Porque te libera del trabajo que no te hace ganar dinero.</p>
+                    <p>En vez de perder horas buscando, filtrando y llamando, inviertes tu tiempo en lo que sí genera ventas: reuniones con propietarios reales y cierres de exclusivas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about-us">
+        <div class="container">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>En Nova Agency entendemos el negocio inmobiliario porque trabajamos mano a mano con agentes como tú.</p>
+                    <p>Nuestro objetivo no es llenarte de datos, sino de oportunidades reales.</p>
+                    <p>Te damos la ventaja competitiva que necesitas para destacar en tu zona y vender más, sin aumentar tus horas de trabajo.</p>
+                </div>
+                <div class="about-image"></div>
             </div>
         </div>
     </section>
@@ -646,18 +883,18 @@ nav {
             <h2 class="section-title" style="color: var(--light);">Lo que dicen nuestros clientes</h2>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <p>"La verdad tío, me has ayudado a tener claridad mental a la hora de querer mandar propuestas en LinkedIn. No solo es la tecnología, es cómo la implementaste en mi flujo de trabajo sin añadir estrés."</p>
-                    <p><strong>Carlos M., Emprendedor</strong></p>
+                    <p>"Gracias a Nova Agency he triplicado mis exclusivas en solo dos meses. Ahora paso el 80% de mi tiempo en reuniones productivas en lugar de perderlo buscando propiedades."</p>
+                    <p><strong>Ana G., Agente Inmobiliaria</strong></p>
                 </div>
                 
                 <div class="testimonial-card">
-                    <p>"Nova Agency transformó nuestro centro de llamadas. Los agentes de IA manejan el 70% de las consultas rutinarias, permitiendo a nuestro equipo humano enfocarse en casos complejos."</p>
-                    <p><strong>María L., Directora de Operaciones</strong></p>
+                    <p>"La diferencia es abismal. Antes llegaba tarde a las mejores oportunidades. Ahora soy el primero en contactar a los propietarios y mi tasa de cierre ha aumentado un 60%."</p>
+                    <p><strong>Carlos M., Agente Inmobiliario</strong></p>
                 </div>
                 
                 <div class="testimonial-card">
-                    <p>"El SaaS personalizado que desarrollaron para nosotros ha sido un cambio radical. Es como tener un miembro adicional del equipo que entiende perfectamente nuestras necesidades."</p>
-                    <p><strong>David R., Emprendedor</strong></p>
+                    <p>"Por fin puedo enfocarme en lo que realmente importa: mostrar propiedades y cerrar ventas. Nova Agency se encarga de encontrar las oportunidades por mí."</p>
+                    <p><strong>Laura S., Agente Inmobiliaria</strong></p>
                 </div>
             </div>
         </div>
@@ -668,23 +905,23 @@ nav {
             <h2 class="section-title">Preguntas Frecuentes</h2>
             
             <div class="faq-item">
-                <div class="faq-question">¿Qué retos encuentra mi empresa al implementar IA?</div>
+                <div class="faq-question">¿Qué zonas cubren?</div>
                 <div class="faq-answer">
-                    <p>Los principales desafíos son: resistencia al cambio, integración con sistemas existentes, calidad de los datos y expectativas poco realistas. En Nova Agency abordamos estos desafíos con un enfoque gradual y centrado en las personas.</p>
+                    <p>Trabajamos en toda España. Nuestro sistema detecta propiedades en cualquier zona que nos indiques como tu área de trabajo.</p>
                 </div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">¿Qué puede hacer la IA por mi empresa?</div>
+                <div class="faq-question">¿Cómo garantizan que los propietarios están interesados?</div>
                 <div class="faq-answer">
-                    <p>La IA puede optimizar procesos, reducir costos, mejorar la experiencia del cliente, proporcionar insights valiosos y liberar a tu equipo para tareas de mayor valor. Pero más importante, puede transformar cómo operas, permitiéndote hacer cosas que antes no eran posibles.</p>
+                    <p>Nuestro sistema analiza múltiples señales en los anuncios para determinar la intención real de venta, filtrando aquellas propiedades donde el propietario tiene alta probabilidad de estar interesado en escuchar propuestas.</p>
                 </div>
             </div>
             
             <div class="faq-item">
-                <div class="faq-question">¿Cómo integran el bienestar emocional?</div>
+                <div class="faq-question">¿Qué diferencia hay con los portales inmobiliarios tradicionales?</div>
                 <div class="faq-answer">
-                    <p>Consideramos factores como la curva de aprendizaje y el impacto en los flujos de trabajo. Diseñamos interfaces intuitivas, proporcionamos capacitación personalizada y establecemos métricas de satisfacción del equipo.</p>
+                    <p>Mientras los portales te muestran todas las propiedades (muchas ya con agente o no disponibles), nosotros te enviamos solo las oportunidades recién publicadas y con alta probabilidad de convertirse en exclusivas, ahorrándote horas de filtrado.</p>
                 </div>
             </div>
         </div>
@@ -693,29 +930,25 @@ nav {
     <section class="lead-magnet">
         <div class="container">
             <div class="form-container">
-                <h2 style="text-align: center; color: var(--primary); margin-bottom: 1.5rem;">Descubre lo que la IA puede hacer por tu empresa</h2>
-                <p style="text-align: center; margin-bottom: 1.5rem;">Descarga nuestro whitepaper "5 Formas en que la IA Transformará tu Negocio" y recibe un diagnóstico gratuito.</p>
+                <h2 style="text-align: center; color: var(--primary); margin-bottom: 1.5rem;">La diferencia entre llegar tarde o ser el primero está en tu próxima decisión.</h2>
+                <p style="text-align: center; margin-bottom: 1.5rem;">Agenda ahora tu reunión gratuita de 30 minutos y descubre cómo cerrar más exclusivas este mes sin trabajar más horas.</p>
                 
-               <form action="https://hook.us2.make.com/a2q8rovwubb33jwqvpq42dyo8f7isnpr" method="POST">
-
+                <form action="https://hook.us2.make.com/a2q8rovwubb33jwqvpq42dyo8f7isnpr" method="POST">
                     <div class="form-group">
                         <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
                     </div>
                     <div class="form-group">
                         <input type="email" name="email" class="form-control" placeholder="Correo electrónico" required>
- </div>
-                    <div class="form-group">
-                        <input type="text" name="empresa" class="form-control" placeholder="Empresa">
                     </div>
-                   <div class="form-group">
-  <input type="tel" name="whatsapp" class="form-control" placeholder="Número de WhatsApp" required>
-</div>
-<div class="form-group">
-  <input type="url" name="linkedin" class="form-control" placeholder="Perfil de LinkedIn">
-</div>
+                    <div class="form-group">
+                        <input type="tel" name="telefono" class="form-control" placeholder="Teléfono" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="zona" class="form-control" placeholder="Zona de trabajo" required>
+                    </div>
 
                     <div class="form-group" style="text-align: center;">
-                        <button type="submit" class="btn btn-primary" style="border: none; cursor: pointer;">Enviar y Descargar</button>
+                        <button type="submit" class="btn btn-primary" style="border: none; cursor: pointer;">📅 Agendar mi reunión ahora</button>
                     </div>
                 </form>
             </div>
@@ -724,51 +957,50 @@ nav {
     
     <section id="contact" class="contact-cta">
         <div class="container">
-            <h2 style="margin-bottom: 1rem; font-size: 1.8rem;">¿Listo para transformar tu empresa?</h2>
-            <p style="max-width: 700px; margin: 0 auto 1.5rem;">Habla directamente con nuestro equipo de expertos. Estamos aquí para entender tus desafíos y proponer soluciones personalizadas.</p>
-          <a href="https://wa.me/34645347443" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
-    <i class="fab fa-whatsapp"></i> Hablar por WhatsApp
-</a>
-
+            <h2 style="margin-bottom: 1rem; font-size: 1.8rem;">¿Tienes dudas? Habla directamente con nuestro equipo</h2>
+            <p style="max-width: 700px; margin: 0 auto 1.5rem;">Estamos aquí para ayudarte a aumentar tus exclusivas y optimizar tu tiempo.</p>
+            <a href="https://wa.me/34645347443" class="whatsapp-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Hablar por WhatsApp
+            </a>
         </div>
     </section>
     
     <footer>
         <div class="container">
             <div class="footer-logo">NOVA AGENCY</div>
-            <p>Transformación Tecnológica con Enfoque Humano</p>
+            <p>Más Exclusivas. Más Ventas. Menos Estrés.</p>
             <div class="social-links">
- <a href="https://www.linkedin.com/in/consultoría-ia-novaagency" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Nova Agency">
-  <i class="fab fa-linkedin-in"></i>
-</a>
-<a href="https://www.instagram.com/juanimal_flow" target="_blank" rel="noopener noreferrer" aria-label="Instagram Nova Agency">
-  <i class="fab fa-instagram"></i>
-</a>
-</div>
-
+                <a href="https://www.linkedin.com/company/nova-agency-bienes-raices" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Nova Agency">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.instagram.com/novaagencybienesraices" target="_blank" rel="noopener noreferrer" aria-label="Instagram Nova Agency">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
             <p>&copy; 2025 Nova Agency. Todos los derechos reservados.</p>
         </div>
     </footer>
     
     <script>
         // Menú Hamburguesa
-       const hamburger = document.getElementById('hamburger');
-const nav = document.getElementById('nav');
+        const hamburger = document.getElementById('hamburger');
+        const nav = document.getElementById('nav');
 
-hamburger.addEventListener('click', () => {
-  nav.classList.toggle('active');
-  hamburger.innerHTML = nav.classList.contains('active')
-    ? '<i class="fas fa-times"></i>'
-    : '<i class="fas fa-bars"></i>';
-});
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            hamburger.innerHTML = nav.classList.contains('active')
+                ? '<i class="fas fa-times"></i>'
+                : '<i class="fas fa-bars"></i>';
+        });
 
-// Cerrar al hacer clic en un enlace
-document.querySelectorAll('.nav-links a').forEach(link => {
-  link.addEventListener('click', () => {
-    nav.classList.remove('active');
-    hamburger.innerHTML = '<i class="fas fa-bars"></i>';
-  });
-});
+        // Cerrar al hacer clic en un enlace
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('active');
+                hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+
         // FAQ
         document.querySelectorAll('.faq-question').forEach(question => {
             question.addEventListener('click', () => {
@@ -784,29 +1016,28 @@ document.querySelectorAll('.nav-links a').forEach(link => {
         });
     </script>
     <script>
-  const form = document.querySelector(".form-container form");
+        const form = document.querySelector(".form-container form");
 
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // Evita el envío automático
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
 
-    const data = new FormData(form);
+            const data = new FormData(form);
 
-    fetch(form.action, {
-      method: "POST",
-      body: data,
-    })
-      .then((res) => {
-        if (res.ok) {
-          window.location.href = "/gracias"; // ✅ Cambia esta URL si tu página se llama diferente
-        } else {
-          alert("Hubo un error al enviar el formulario. Intenta de nuevo.");
-        }
-      })
-      .catch(() => {
-        alert("Hubo un error en la conexión. Intenta más tarde.");
-      });
-  });
-</script>
-
+            fetch(form.action, {
+                method: "POST",
+                body: data,
+            })
+                .then((res) => {
+                    if (res.ok) {
+                        window.location.href = "/gracias";
+                    } else {
+                        alert("Hubo un error al enviar el formulario. Intenta de nuevo.");
+                    }
+                })
+                .catch(() => {
+                    alert("Hubo un error en la conexión. Intenta más tarde.");
+                });
+        });
+    </script>
 </body>
 </html>
