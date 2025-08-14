@@ -256,11 +256,10 @@
           background: var(--secondary);
           position: relative;
           padding: 3rem 0;
-          color: var(--light);
       }
       
       .about p {
-          color: var(--light);
+          color: var(--dark-text);
       }
       
       .about .section-title {
@@ -358,8 +357,9 @@
       }
       
       .benefits-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
           gap: 1.5rem;
           margin-top: 2rem;
       }
@@ -370,6 +370,9 @@
           border-radius: 10px;
           box-shadow: 0 5px 15px rgba(0,0,0,0.05);
           color: var(--dark-text);
+          flex: 1;
+          min-width: 250px;
+          max-width: 300px;
       }
       
       /* Testimonios */
@@ -563,6 +566,15 @@
           .services-grid {
               grid-template-columns: 1fr;
           }
+          
+          .benefits-grid {
+              flex-direction: column;
+              align-items: center;
+          }
+          
+          .benefit-item {
+              max-width: 100%;
+          }
       }         
         
       @media (max-width: 480px) {
@@ -674,6 +686,11 @@
       .about-us .section-title {
           color: var(--primary);
       }
+      
+      /* Texto blanco para las frases específicas */
+      .texto-blanco {
+          color: white !important;
+      }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" media="print" onload="this.media='all'">
@@ -713,7 +730,7 @@
             <h1 style="font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Más Exclusivas. Más Ventas. Menos Estrés.</h1>
             <p class="tagline">Llega antes que tu competencia y céntrate en lo que mejor haces: cerrar acuerdos y enseñar casas.</p>
             <p style="max-width: 700px; margin: 0 auto 2rem; font-size: 1.1rem; color: var(--light);">En Nova Agency nos encargamos de detectar al instante a los propietarios que acaban de poner su vivienda en venta en tu zona. Solo te presentamos oportunidades reales para que dediques tu tiempo a lo que te genera ingresos: reuniones, visitas y cierres.</p>
-            <a href="#contact" class="btn btn-primary">📅 Quiero cerrar más exclusivas</a>
+            <a href="https://wa.me/34645347443" class="btn btn-primary" target="_blank">📅 Quiero cerrar más exclusivas</a>
         </div>
     </header>
     
@@ -736,10 +753,9 @@
         <div class="container">
             <h2 class="section-title">Nuestra Propuesta</h2>
             <div class="about-content" style="flex-direction: column; text-align: center;">
-                <div class="about-text" style="max-width: 800px; margin: 0 auto;">
+                <div class="about-text" style="max-width: 800px; margin: 0 auto; color: var(--dark-text);">
                     <h3 style="color: var(--primary); margin-bottom: 1.5rem;">Más tiempo para clientes reales, menos para prospectos perdidos</h3>
-                    <p>En Nova Agency te conectamos directamente con propietarios listos para vender en tu zona.</p>
-                    <p>Sin llamadas en frío, sin búsquedas eternas, sin malgastar energía.</p>
+                    <p class="texto-blanco">En Nova Agency te conectamos directamente con propietarios listos para vender en tu zona. Sin llamadas en frío, sin búsquedas eternas, sin malgastar energía.</p>
                 </div>
             </div>
             
@@ -822,7 +838,7 @@
                 </div>
             </div>
             
-            <a href="#contact" class="btn btn-primary" style="margin-top: 2rem;">🚀 Quiero hablar con más propietarios reales</a>
+            <a href="https://wa.me/34645347443" class="btn btn-primary" style="margin-top: 2rem;" target="_blank">🚀 Quiero hablar con más propietarios reales</a>
         </div>
     </section>
     
@@ -857,8 +873,7 @@
             <h2 class="section-title">Por Qué Funciona</h2>
             <div class="about-content" style="flex-direction: column; text-align: center;">
                 <div class="about-text" style="max-width: 800px; margin: 0 auto;">
-                    <p>Porque te libera del trabajo que no te hace ganar dinero.</p>
-                    <p>En vez de perder horas buscando, filtrando y llamando, inviertes tu tiempo en lo que sí genera ventas: reuniones con propietarios reales y cierres de exclusivas.</p>
+                    <p class="texto-blanco">Porque te libera del trabajo que no te hace ganar dinero. En vez de perder horas buscando, filtrando y llamando, inviertes tu tiempo en lo que sí genera ventas: reuniones con propietarios reales y cierres de exclusivas.</p>
                 </div>
             </div>
         </div>
